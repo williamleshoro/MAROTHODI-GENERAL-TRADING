@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Marothodi General Trading</title>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        .block {
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            font-weight: bold;
+        }
+        .slider {
+            position: relative;
+            max-width: 800px;
+            margin: 20px auto;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .slides {
+            display: flex;
+            width: 300%;
+            animation: slide 80s infinite;
+        }
+        .slides img {
+            width: 100%;
+            height: auto;
+        }
+        @keyframes slide {
+            0% { transform: translateX(0%); }
+            33% { transform: translateX(-100%); }
+            66% { transform: translateX(-200%); }
+            100% { transform: translateX(0%); }
+        }
+        .gallery {
+            
+            grid-template-columns: repeat(auto-fill, minmax(5000px, 1fr));
+            gap: 10px;
+            padding: 20px;
+            max-width: 60000px;
+           
+        }
+        .gallery img {
+            width: 500px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #333;
+            color: #fff;
+            margin-top: 20px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Marothodi General Trading</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about us.html">About Us</a></li>
+                <li><a href="map.html">Map</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="slider">
+        <div class="slides">
+            <p>Deliver quality products & services  &nbsp &nbsp &nbsp</p>
+            <p>Become the industry leader  &nbsp &nbsp &nbsp</p>
+            <p>Integrity, Quality, Innovation  &nbsp &nbsp &nbsp</p>
+            <p>Satisfy Customers</p>
+        </div>
+    </div>
+    
+    
+    <div class="gallery">
+        <img src="05b7d2aa-747d-42b0-8512-429a1438e606.jpg" alt="Gallery Image 1">
+        <img src="7a96bcdd-4259-4cfb-94a0-b0d0598dac7b.jpg" alt="Gallery Image 2">
+        <img src="c5c5fbd7-3118-4ee2-8bbb-a8736be7e9e0.jpg" alt="Gallery Image 3">
+        <img src="dd0e6070-ee84-496a-8d20-3d85e039fd86.jpg" alt="Gallery Image 4">
+        <img src="88825782-e50e-4d55-97bf-24a3ef1baa42.jpg" alt="Gallery Image 5">
+        <img src="d9152fb3-7212-46fa-bb9b-9cfc5a9a28e2.jpg" alt="Gallery Image 6">
+        <img src="e8b62974-540a-4cd6-b2bf-a14e2f005393.jpg" alt="Gallery Image 7">
+        <img src="b48f946e-c610-41df-85d7-8da745bec8ac.jpg" alt="Gallery Image 8">
+        <img src="ef4b4501-6743-4600-a96c-844e4fc53209.jpg" alt="Gallery Image 9">
+        <img src="ef2fd6cf-b0d0-466a-ae6d-37fef53926b9.jpg" alt="Gallery Image 10">
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 Marothodi General Trading. All rights reserved.</p>
+    </footer>
+</body>
+</html>
